@@ -15,5 +15,8 @@ export class ListComponent implements OnInit {
   fun1(){
     this.rr.navigateByUrl('/chat1')
   }
+  fun2(){
+    this.rr.navigateByUrl('/chat2')
+  }
 
 }
