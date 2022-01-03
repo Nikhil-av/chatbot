@@ -10,7 +10,7 @@ export class Chat2Component implements OnInit {
   constructor() { }
   ind=0;
   k:any[]=[];
-  arr:any[] = [['Hey there, How can I help you?You can chose from the below menu',3,'know course details',1,'view all domains',2,'refund status',3],['Select the course from the following:',5,'mean stack',4,'ml using python',4,'mern stack',4,'reactjs',4,'flutter',4],['select domain',3,'machine learning',5,'web devolopment',5],['enter your purchase id',0,'your request has been recorded'],['select details you need',3,'fee',6,'timeline',7,'instructor',8],['these are available courses in domain',0,'thanks for choosing udemy'],['fee is 3000',0,'thanks for choosing udemy'],['timeline is from dec-feb',0,'thanks for choosing udemy'],['instructor is andrew ng',0,'thanks for choosing udemy']];
+  arr:any[] = [['Hey there, How can I help you?You can chose from the below menu',3,'know course details',1,'view all domains',2,'refund status',3],['Select the course from the following:',5,'mean stack',4,'ml using python',4,'mern stack',4,'reactjs',4,'flutter',4],['select domain',3,'machine learning',5,'web devolopment',5],['enter your purchase id',0,'your request has been recorded'],['select details you need',3,'fee',6,'timeline',7,'instructor',8],['these are available courses in domain enter your username for further assistance',0,'thanks for choosing udemy'],['fee is 3000 enter your username for further assistance',0,'thanks for choosing udemy'],['timeline is from dec-feb enter your username for further assistance',0,'thanks for choosing udemy'],['instructor is andrew ng enter your username for further assistance',0,'thanks for choosing udemy']];
   ngOnInit(): void {
     for (let i = 0; i <this.arr[this.ind].length; i++) {
       if(i!=0 &&i!=1) {
