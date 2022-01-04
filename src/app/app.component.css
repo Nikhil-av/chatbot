@@ -6,7 +6,7 @@
 }
 
 .hero{
-    background: #1d2026;
+    background: rgb(26, 26, 53);
     min-height: 100vh;
     width: 100%;
     color: #fff;
@@ -90,7 +90,7 @@ button span{
 }
 .text-container a{
     text-decoration: none;
-    background: blue;
+    background: rgb(170, 59, 59);
     padding: 14px 40px;
     display: inline-block;
     color: #fff;
